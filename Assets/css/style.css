@@ -1,0 +1,797 @@
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../fonts/Inter/static/Inter-Bold.ttf);
+}
+
+/* ===navbar section start=== */
+#navs .navbar {
+    background: #1D2026;
+}
+
+#navs a {
+    font-family: Inter-Regular;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8C94A3;
+}
+
+#navs .down_arrow {
+    font-size: 10px;
+    color: #8C94A3;
+}
+
+#navs h3 {
+    font-family: Inter-Regular;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#navs .search {
+    top: 12px;
+    left: 12px;
+    color:
+        #1D2026;
+}
+
+#navs input {
+    height: 41px;
+    width: 312px;
+    border: 1px #E9EAF0 solid;
+}
+
+#navs input::placeholder {
+    padding-left: 20px !important;
+    font-family: Inter-Regular;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#navs select {
+    width: 200px;
+    border: 1px #E9EAF0 solid;
+}
+
+#navs>select>option {
+    color: #4E5566;
+}
+
+#navs .sign_in button {
+    background: #FF6636;
+    color: white;
+    font-family: Inter-Regular;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#navs .sign_in button:hover {
+    background-color: #FFEEE8;
+    color: #FF6636;
+    transition: 0.5s all;
+}
+
+/* ===navbar section end=== */
+
+/* ===hero_section start=== */
+#hero_section button {
+    background: #FF6636;
+    color: white;
+    font-family: Inter-Regular;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#hero_section button:hover {
+    background-color: #FFEEE8;
+    color: #FF6636;
+    transition: 0.5s all;
+}
+
+#hero_section p {
+    font-family: Inter-Regular;
+    font-size: 15px;
+    font-weight: 500;
+    color: #8C94A3;
+}
+
+#hero_section .hero_left {
+    background: linear-gradient(180deg, rgba(240, 242, 245, 0) 0.02%, #F0F2F5 220.8%);
+}
+
+#hero_section h1 {
+    font-family: Inter-Bold;
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+#hero_section .hero_info {
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+/* ===hero_section end=== */
+
+/* ===category section start=== */
+#category .category_heading {
+    font-family: Inter-Bold;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#category .category_box_1 {
+    background: #EBEBFF;
+}
+
+#category .category_box_2 {
+    background: #E1F7E3;
+}
+
+#category .category_box_3 {
+    background: #FFF2E5;
+}
+
+#category .category_box_4 {
+    background: #FFF0F0;
+}
+
+#category .category_box_6 {
+    background: #F5F7FA;
+}
+
+#category .for_fonts h4 {
+    font-size: 15px;
+    font-family: Inter-Regular;
+    color: black;
+    font-weight: bold;
+}
+
+#category .for_fonts h6 {
+    font-size: 13px;
+    font-family: Inter-Regular;
+    color: #8C94A3;
+}
+
+#category .category_img_container {
+    height: 55px;
+    width: 55px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#category .category_footer {
+    font-family: Inter-Regular;
+    color: #4E5566;
+}
+
+#category .category_footer h5 {
+    font-size: 15px;
+}
+
+#category .category_footer span a {
+    color: #FF6636;
+}
+
+/* ===category section end=== */
+
+
+/* ===courses section start=== */
+#courses {
+    background-color: #F5F7FA;
+    padding-top: 20px;
+    padding-bottom: 300px;
+}
+
+#courses .courses_heading {
+    font-family: Inter-Bold;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#courses .for_color_one .course_category h5 {
+    font-size: 11px;
+    color: #993D20;
+    font-family: Inter-Regular;
+}
+
+#courses .for_color_one .course_category {
+    background: #FFEEE8;
+    padding: 7px;
+}
+
+#courses .for_color_one .course_price h5 {
+    color: #FF6636;
+    font-size: 13px;
+    font-family: Inter-Regular;
+}
+
+#courses .for_color_two .course_category h5 {
+    font-size: 11px;
+    color: #342F98;
+    font-family: Inter-Regular;
+}
+
+#courses .for_color_two .course_category {
+    background: #EBEBFF;
+    padding: 7px;
+}
+
+#courses .for_color_two .course_price h5 {
+    color: #FF6636;
+    font-size: 13px;
+    font-family: Inter-Regular;
+}
+
+#courses .for_color_three .course_category h5 {
+    font-size: 11px;
+    color: #15711F;
+    font-family: Inter-Regular;
+}
+
+#courses .for_color_three .course_category {
+    background: #E1F7E3;
+    padding: 7px;
+}
+
+#courses .for_color_three .course_price h5 {
+    color: #FF6636;
+    font-size: 13px;
+    font-family: Inter-Regular;
+}
+
+#courses .card p {
+    font-family: Inter-Regular;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#courses .card_footer h6 {
+    color: #4E5566;
+    font-family: Inter-Regular;
+    font-size: 13px;
+}
+
+#courses .card_right_container {
+    margin-top: 7px;
+}
+
+#courses .card_footer h6 span {
+    color: #8C94A3;
+}
+
+#courses .card_footer .card_left_container {
+    align-items: baseline;
+}
+
+/* ===courses section end=== */
+
+
+/* ===feature section start=== */
+#feature .col-11 {
+    padding: 70px;
+    background: rgb(255, 255, 255);
+    margin-top: -250px;
+}
+
+#feature h5,
+p,
+h6 {
+    font-family: Inter-Regular;
+}
+
+#feature .heading_container {
+    padding-bottom: 10px;
+}
+
+#feature .feature_heading {
+    font-family: Inter-Bold;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#feature .for_shadow:hover {
+    box-shadow: 0px 12px 32px 0px #1D20261A;
+}
+
+#feature .heading_para {
+    color: #4E5566;
+    font-family: Inter-Regular;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#feature .for_para_color {
+    color: #FF6636;
+}
+
+#feature .course_category_1 h5 {
+    font-size: 11px;
+    color: #15711F;
+}
+
+#feature .course_category_1 {
+    background: #E1F7E3;
+    padding: 7px;
+}
+
+#feature .course_category_2 h5 {
+    font-size: 11px;
+    color: #993D20;
+}
+
+#feature .course_category_2 {
+    background: #FFEEE8;
+    padding: 7px;
+}
+
+#feature .course_category_3 h5 {
+    font-size: 11px;
+    color: #1D2026;
+}
+
+#feature .course_category_3 {
+    background: #F5F7FA;
+    padding: 7px;
+}
+
+#feature .course_category_4 h5 {
+    font-size: 11px;
+    color: #65390C;
+}
+
+#feature .course_category_4 {
+    background: #FFF2E5;
+    padding: 7px;
+}
+
+#feature .course_price h5 {
+    font-size: 17px;
+}
+
+#feature .course_price span {
+    font-size: 12px;
+    color: #A1A5B3;
+}
+
+#feature p {
+    font-size: 12.5px;
+    font-weight: bold;
+}
+
+#feature .student_name h5 {
+    font-size: 13px;
+    color: #4E5566;
+}
+
+#feature .student_rating h5 {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#feature .student_rating h5 span {
+    color: #8C94A3;
+    font-weight: 500;
+}
+
+#feature h6 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #4E5566;
+}
+
+#feature h6 span {
+    color: #8C94A3;
+    font-weight: 400;
+}
+
+#feature .user_icon {
+    color: #564FFD;
+}
+
+#feature .graph_icon {
+    color: #E34444;
+}
+
+#feature .clock_icon {
+    color: #23BD33;
+}
+
+/* ===feature section end=== */
+
+/* ===recent courses section start=== */
+#recent_courses .courses_heading {
+    font-family: Inter-Bold;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#recent_courses .for_color_one .course_category h5 {
+    font-size: 11px;
+    color: #993D20;
+    font-family: Inter-Regular;
+}
+
+#recent_courses .for_color_one .course_category {
+    background: #FFEEE8;
+    padding: 7px;
+}
+
+#recent_courses .for_color_one .course_price h5 {
+    color: #FF6636;
+    font-size: 13px;
+    font-family: Inter-Regular;
+}
+
+#recent_courses .for_color_two .course_category h5 {
+    font-size: 11px;
+    color: #342F98;
+    font-family: Inter-Regular;
+}
+
+#recent_courses .for_color_two .course_category {
+    background: #EBEBFF;
+    padding: 7px;
+}
+
+#recent_courses .for_color_two .course_price h5 {
+    color: #FF6636;
+    font-size: 13px;
+    font-family: Inter-Regular;
+}
+
+#recent_courses .for_color_three .course_category h5 {
+    font-size: 11px;
+    color: #15711F;
+    font-family: Inter-Regular;
+}
+
+#recent_courses .for_color_three .course_category {
+    background: #E1F7E3;
+    padding: 7px;
+}
+
+#recent_courses .for_color_three .course_price h5 {
+    color: #FF6636;
+    font-size: 13px;
+    font-family: Inter-Regular;
+}
+
+#recent_courses .card p {
+    font-family: Inter-Regular;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#recent_courses .card_footer h6 {
+    color: #4E5566;
+    font-family: Inter-Regular;
+    font-size: 13px;
+}
+
+#recent_courses .card_right_container {
+    margin-top: 7px;
+}
+
+#recent_courses .card_footer h6 span {
+    color: #8C94A3;
+}
+
+#recent_courses .card_footer .card_left_container {
+    align-items: baseline;
+}
+
+#recent_courses button {
+    background: #FFEEE8;
+    color: #FF6636;
+    font-family: Inter-Regular;
+}
+
+/* ===recent courses section end=== */
+
+/* ===instructor section start=== */
+#instructor {
+    background: #F5F7FA;
+}
+
+#instructor .for_padding {
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+
+#instructor .right_box .for_bg {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#instructor .right_box h3 {
+    font-family: Inter-Regular;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#instructor .right_box h6 {
+    font-size: 14px;
+}
+
+#instructor .right_box .num_one .for_bg {
+    background-color: #EBEBFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#instructor .right_box .num_one .for_bg h6 {
+    color: #342F98;
+    font-family: Inter-Regular;
+    font-weight: bold;
+}
+
+#instructor .right_box .num_two .for_bg {
+    background-color: #FFEEE8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#instructor .right_box .num_two .for_bg h6 {
+    color: #FF6636;
+    font-family: Inter-Regular;
+    font-weight: bold;
+}
+
+#instructor .right_box .num_three .for_bg {
+    background-color: #FFEEE8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#instructor .right_box .num_three .for_bg h6 {
+    color: #993D20;
+    font-family: Inter-Regular;
+    font-weight: bold;
+}
+
+#instructor .right_box .num_four .for_bg {
+    background-color: #E1F7E3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#instructor .right_box .num_four .for_bg h6 {
+    color: #15711F;
+    font-family: Inter-Regular;
+}
+
+/* ===instructor section end=== */
+
+/* ===top_instructor section start=== */
+#top_instructor .courses_heading {
+    font-family: Inter-Bold;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#top_instructor .name h4 {
+    font-size: 17px;
+    font-family: Inter-Regular;
+}
+
+#top_instructor .position h5 {
+    color: #8C94A3;
+    font-family: Inter-Regular;
+    font-size: 14px;
+}
+
+#top_instructor .card_footer h5 {
+    font-family: Inter-Regular;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#top_instructor .card_footer h5 span {
+    color: #8C94A3;
+    font-family: Inter-Regular;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#top_instructor .for_top {
+    background: white;
+    margin-top: -226px;
+}
+
+#top_instructor .top_instructor_footer h5{
+    font-family: Inter-Regular;
+    color: #4E5566;
+    font-size: 15px;
+}
+#top_instructor .top_instructor_footer h5 span{
+    color: #FF6636;
+}
+
+/* ===top_instructor section end=== */
+
+/* ===companies section start=== */
+#companies .logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 69px;
+}
+#companies h3{
+    font-family: Inter-Regular;
+    font-weight: bold;
+    font-size: 26px;
+}
+#companies h5{
+    color: #8C94A3;
+    font-family: Inter-Regular;
+    font-size: 12px;
+}
+/* ===companies section end=== */
+
+/* ===footers section start=== */
+#footers{
+    background: #1D2026;
+}
+#footers h3{
+    font-family: Inter-Regular;
+    font-weight: bold;
+    font-size: 35px;
+}
+#footers h4{
+    font-family: Inter-Regular;
+    font-weight: bold;
+    font-size: 25px;
+}
+#footers h6{
+    font-family: Inter-Regular;
+    font-size: 12px;
+}
+#footers button{
+    background: #FF6636;
+    color: white;
+    font-family: Inter-Regular;
+    font-size: 13px;
+    font-weight: 400;
+}
+#footers button:hover{
+    background-color: #454545;
+    color: #ffffff;
+    transition: 0.5s all;
+}
+#footers hr{
+    border: 2px white solid;
+}
+#footers .icon_container{
+    height: 50px;
+    width: 50px;
+    background: #353434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+#footers .icon_container:hover{
+    background-color: #FF6636;
+    transition: 0.5s all;
+}
+#footers .butn_heading li{
+    color: white;
+}
+#footers p{
+    font-family: Inter-Regular;
+    color: #8C94A3;
+    font-size: 15px;
+}
+#footers li{
+    font-family: Inter-Regular;
+    color: #8C94A3;
+    font-size: 14px;
+}
+#footers .for_download_butn{
+    padding: 10px;
+    background-color: #353434;
+}
+#footers .for_download_butn h6{
+    font-size: 12px;
+    font-family: Inter-Regular;
+    color: #8C94A3;
+}
+#footers .for_download_butn h5{
+    font-size: 15px;
+    font-family: Inter-Regular;
+    color: white;
+}
+#footers .for_hover i{
+    opacity: 0;
+}
+#footers a:hover .for_hover i{
+    opacity: 1;
+    color: white;
+    transition: 0.5s all;
+}
+/* #footers a:hover .for_hover{
+    border-bottom: 2px #FF6636 solid;
+} */
+#footers a:hover li{
+    color: white;
+    transition: 0.5s all;
+}
+#footers .footer_bottom h6{
+    font-size: 12px;
+    font-family: Inter-Regular;
+    color: #8C94A3;
+}
+#footers .footer_bottom h6 span{
+    color: white;
+}
+#footers .form-select{
+    width: 100px;
+    background-color: #353434;
+    border: #8C94A3 1px solid;
+    color: #8C94A3;
+    font-size: 12px;
+    font-family: Inter-Regular;
+    cursor: pointer;
+}
+#footers .for_border{
+    border: #FF6636 1px solid; 
+    opacity: 0;
+    width: 100%;
+}
+#footers a:hover .for_border{
+    opacity: 1;
+    transition: 0.5s all;
+}
+/* ===footer section end=== */
+
+
+/* ===media query for start=== */
+@media only screen and (min-width: 768px) and (max-width: 1281px){
+    #hero_section .hero_info{
+        margin-left: 0rem;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #category .for_fonts h4{
+        font-size: 12px;
+    }
+    #companies .logo_container{
+        width: 124px;
+    }
+}
+#navs input{
+    width: 41px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
+    #navs input{
+        width: 124px;
+    }
+    #navs select{
+        width: 100px;
+    }
+    #hero_section .hero_info{
+        margin-top: 30px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    #feature .for_shadow{
+        width: 286px;
+    }
+    #feature .col-11 {
+        padding: 60px;
+    }
+    #footers h3 {
+        font-size: 27px;
+    }
+    }
+/* ===media query end=== */
