@@ -1,0 +1,960 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./Assets/css/style.css">
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>E-Tutor - Single Course</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/img/logo.png">
+</head>
+
+<body>
+    <div>
+        <!-- ===Navbar section start=== -->
+        <section id="navs">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid mx-2">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars text-white "></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link me-2" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-2" href="./category.html">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-2" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-2" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-2" href="#">Become an Instructor</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex">
+                            <!-- <div class="me-2">
+                                <a href="#" class="text-decoration-none">USD</a>
+                                <span><i class="fa-solid fa-chevron-down down_arrow"></i></span>
+                            </div> -->
+                            <!-- <div>
+                                <a href="#" class="text-decoration-none">English</a>
+                                <span><i class="fa-solid fa-chevron-down down_arrow"></i></span>
+                            </div> -->
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>USD</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>English</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="row m-0 py-3">
+                <div class="col-lg-7 col-12">
+                    <div class="d-flex justify-content-md-center">
+                        <div class="d-flex">
+                            <div>
+                                <img src="./Assets/img/logo.png" alt="">
+                            </div>
+                            <div>
+                                <h4 class="mt-1 mx-4">E-tutor</h4>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <select class="form-select me-3 rounded-0" aria-label="Default select example">
+                                <option selected>Browse</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <div class="position-relative">
+                                <input type="text" class="form-control search_box rounded-0"
+                                    placeholder="What do you want to learn..." aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <i class="fa-solid fa-magnifying-glass position-absolute search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <div
+                        class="d-flex justify-content-lg-end justify-content-md-center justify-content-center mt-3 mt-lg-0">
+                        <div class="d-flex align-items-center mx-xl-5 mx-lg-0 mx-md-0 mx-0 ">
+                            <i class="fa-regular fa-bell mx-3"></i>
+                            <i class="fa-regular fa-heart mx-3"></i>
+                            <i class="fa-solid fa-cart-shopping mx-3"></i>
+                        </div>
+                        <div class="me-3 sign_in">
+                            <button type="button" class="btn rounded-0 for_sm_size">Create Account</button>
+                            <button type="button" class="btn rounded-0 for_sm_size_2">Sign In</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===Navbar section end=== -->
+
+        <!-- ===webflow section start=== -->
+        <section id="webflow">
+            <div class="for_bg"></div>
+            <div>
+                <div class="row m-0">
+                    <div class="col-12">
+                        <div class="row m-0 justify-content-center ">
+                            <div class="col-10">
+                                <div class="row">
+                                    <div class="col-xl-7 for_margin">
+                                        <div class="d-flex flow">
+                                            <div>
+                                                <a href="#" class="text-decoration-none ">Home</a>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-chevron-right mx-1 mx-md-2 mx-lg-2 mx-xl-2"></i>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="text-decoration-none ">Development</a>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-chevron-right mx-1 mx-md-2 mx-lg-2 mx-xl-2"></i>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="text-decoration-none ">Web Development</a>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-chevron-right mx-1 mx-md-2 mx-lg-2 mx-xl-2"></i>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="text-decoration-none ">Webflow</a>
+                                            </div>
+                                        </div>
+                                        <div class="webflow_heading">
+                                            <h3 class="fw-bold m-0 py-lg-3">Complete Website Responsive Design: from
+                                                Figma to Webflow To Website Design</h3>
+                                        </div>
+                                        <div class="webflow_info">
+                                            <p class="m-0">3 in 1 Course: Learn to design websites with Figma, build
+                                                with Webflow, and make a living freelancing.</p>
+                                        </div>
+                                        <div>
+                                            <div class="row creator_info py-lg-3">
+                                                <div class="col-lg-6">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <img src="./Assets/img/webflow-creator-img.png" alt="">
+                                                        </div>
+                                                        <div class="ms-1">
+                                                            <div>
+                                                                <h6 class="fw-bold m-0 mt-2">Created by:</h6>
+                                                                <h5 class="fw-bold m-0 mt-2">• Dianne Russell • Kristin
+                                                                    Watson</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 rating">
+                                                    <div class="d-flex justify-content-end mt-lg-3">
+                                                        <div class="d-flex">
+                                                            <img src="./Assets/img/star.png" alt="">
+                                                            <img src="./Assets/img/star.png" alt="">
+                                                            <img src="./Assets/img/star.png" alt="">
+                                                            <img src="./Assets/img/star.png" alt="">
+                                                            <img src="./Assets/img/star.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                            <h5 class="m-0 ps-2">
+                                                                <span class="fw-bold ">4.8</span>(451,444 Rating)
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative ">
+                                            <div>
+                                                <img src="./Assets/img/popup_video_img.png" alt="" class="img-fluid ">
+                                            </div>
+                                            <div>
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                    <div class="position-absolute play_icon">
+                                                        <i class="fa-solid fa-play"></i>
+                                                    </div>
+                                                    <div class="modal fade" id="staticBackdrop"
+                                                        data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                                                        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header border-0 ">
+                                                                    <h5 class="modal-title" id="staticBackdropLabel">
+                                                                    </h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <iframe
+                                                                        src="https://www.youtube.com/embed/EGqHVjU-fas?si=GQa3bTMRf9aNNzSV"
+                                                                        title="YouTube video player" frameborder="0"
+                                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                                        allowfullscreen></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cycle-tab-container">
+                                            <ul class="nav nav-tabs justify-content-around ">
+                                                <li class="cycle-tab-item active">
+                                                    <a class="nav-link p-0" role="tab" data-toggle="tab"
+                                                        href="#home">Overview</a>
+                                                    <div class="for_border">
+
+                                                    </div>
+                                                </li>
+                                                <li class="cycle-tab-item">
+                                                    <a class="nav-link p-0" role="tab" data-toggle="tab"
+                                                        href="#profile">Curriculum</a>
+                                                    <div class="for_border">
+
+                                                    </div>
+                                                </li>
+                                                <li class="cycle-tab-item">
+                                                    <a class="nav-link p-0" role="tab" data-toggle="tab"
+                                                        href="#messages">Instructor</a>
+                                                    <div class="for_border">
+
+                                                    </div>
+                                                </li>
+                                                <li class="cycle-tab-item">
+                                                    <a class="nav-link p-0" role="tab" data-toggle="tab"
+                                                        href="#settings">Review</a>
+                                                    <div class="for_border">
+
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade active in" id="home" role="tabpanel"
+                                                    aria-labelledby="home-tab">
+                                                    <div class="tab_heading">
+                                                        <h3 class="text-start m-0 my-4">Description</h3>
+                                                    </div>
+                                                    <div>
+                                                        <p class="text-start ">
+                                                            It gives you a huge self-satisfaction when you look at your
+                                                            work and say, "I made this!". I love that feeling after I'm
+                                                            done working on something. When I lean back in my chair,
+                                                            look at the final result with a smile, and have this little
+                                                            "spark joy" moment. It's especially satisfying when I know I
+                                                            just made $5,000.
+                                                        </p>
+
+                                                        <p class="text-start ">
+                                                            I do! And that's why I got into this field. Not for the love
+                                                            of Web Design, which I do now. But for the LIFESTYLE! There
+                                                            are many ways one can achieve this lifestyle. This is my
+                                                            way. This is how I achieved a lifestyle I've been
+                                                            fantasizing about for five years. And I'm going to teach you
+                                                            the same. Often people think Web Design is complicated. That
+                                                            it needs some creative talent or knack for computers. Sure,
+                                                            a lot of people make it very complicated. People make the
+                                                            simplest things complicated. Like most subjects taught in
+                                                            the universities. But I don't like complicated. I like easy.
+                                                            I like life hacks. I like to take the shortest and simplest
+                                                            route to my destination. I haven't gone to an art school or
+                                                            have a computer science degree. I'm an outsider to this
+                                                            field who hacked himself into it, somehow ending up being a
+                                                            sought-after professional. That's how I'm going to teach you
+                                                            Web Design. So you're not demotivated on your way with
+                                                            needless complexity. So you enjoy the process because it's
+                                                            simple and fun. So you can become a Freelance Web Designer
+                                                            in no time.
+                                                        </p>
+
+                                                        <p class="text-start ">
+                                                            For example, this is a Design course but I don't teach you
+                                                            Photoshop. Because Photoshop is needlessly complicated for
+                                                            Web Design. But people still teach it to web designers. I
+                                                            don't. I teach Figma – a simple tool that is taking over the
+                                                            design world. You will be designing a complete website
+                                                            within a week while others are still learning how to create
+                                                            basic layouts in Photoshop.
+                                                        </p>
+
+                                                        <p class="text-start ">
+                                                            Second, this is a Development course. But I don't teach you
+                                                            how to code. Because for Web Design coding is needlessly
+                                                            complicated and takes too long to learn. Instead, I teach
+                                                            Webflow – a tool that is taking over the web design world.
+                                                            You will be building complex websites within two weeks while
+                                                            others are still learning the basics of HTML & CSS. Third,
+                                                            this is a Freelancing course. But I don't just teach you how
+                                                            to write great proposals. I give you a winning proposal
+                                                            template. When you're done with the course, you will have a
+                                                            stunning portfolio website with portfolio pieces already in
+                                                            it. Buy this course now and take it whenever the time is
+                                                            right for you.
+                                                        </p>
+                                                    </div>
+                                                    <div class="learn_course p-4 shadow my-4">
+                                                        <div>
+                                                            <div>
+                                                                <h3 class="text-start m-0 mb-3">What you will learn in
+                                                                    this course</h3>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-6">
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <div class="icon_container">
+                                                                                <i class="fa-solid fa-check"></i>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div>
+                                                                            <p class="text-start m-0 ms-2">
+                                                                                You will learn how to design beautiful
+                                                                                websites using Figma, an interface
+                                                                                design tool used by designers at Uber,
+                                                                                Airbnb and Microsoft.
+                                                                            </p>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <div class="icon_container">
+                                                                                <i class="fa-solid fa-check"></i>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div>
+                                                                            <p class="text-start m-0 ms-2">
+                                                                                You will learn how to take your designs
+                                                                                and build them into powerful websites
+                                                                                using Webflow, a state of the art site
+                                                                                builder used by teams at Dell, NASA and
+                                                                                more.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row my-3">
+                                                                <div class="col-6">
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <div class="icon_container">
+                                                                                <i class="fa-solid fa-check"></i>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div>
+                                                                            <p class="text-start m-0 ms-2">
+                                                                                You will learn secret tips of Freelance
+                                                                                Web Designers and how they make great
+                                                                                money freelancing online.
+                                                                            </p>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <div class="icon_container">
+                                                                                <i class="fa-solid fa-check"></i>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div>
+                                                                            <p class="text-start m-0 ms-2">
+                                                                                Learn to use Python professionally,
+                                                                                learning both Python 2 and Python 3!
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-6">
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <div class="icon_container">
+                                                                                <i class="fa-solid fa-check"></i>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div>
+                                                                            <p class="text-start m-0 ms-2">
+                                                                                Understand how to use both the Jupyter
+                                                                                Notebook and create .py files
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <div class="icon_container">
+                                                                                <i class="fa-solid fa-check"></i>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div>
+                                                                            <p class="text-start m-0 ms-2">
+                                                                                Get an understanding of how to create
+                                                                                GUIs in the Jupyter Notebook system!
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="who_course">
+                                                        <div>
+                                                            <h3 class="text-start">who this course is for</h3>
+                                                        </div>
+                                                        <div>
+                                                            <div class="d-flex align-items-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">This course is for those who
+                                                                        want to launch a Freelance Web Design career.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">Praesent eget consequat elit.
+                                                                        Duis a pretium purus.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">Sed sagittis suscipit
+                                                                        condimentum pellentesque vulputate feugiat
+                                                                        libero nec accumsan.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">Sed nec dapibus orci integer
+                                                                        nisl turpis, eleifend sit amet aliquam vel,
+                                                                        lacinia quis ex.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">Those who are looking to reboot
+                                                                        their work life and try a new profession that is
+                                                                        fun, rewarding and highly in-demand.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">Nunc auctor consequat lorem, in
+                                                                        posuere enim hendrerit sed.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">Duis ornare enim ullamcorper
+                                                                        congue consectetur suspendisse interdum
+                                                                        tristique est sed molestie. </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="course_requirement my-4">
+                                                        <div>
+                                                            <h3 class="text-start">course requirement</h3>
+                                                        </div>
+                                                        <div>
+                                                            <div class="d-flex align-items-baseline">
+                                                                <div>
+                                                                    <i class="fa-solid fa-circle"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">This course is for those who
+                                                                        want to launch a Freelance Web Design career.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-baseline">
+                                                                <div>
+                                                                    <i class="fa-solid fa-circle"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">Praesent eget consequat elit.
+                                                                        Duis a pretium purus.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-baseline">
+                                                                <div>
+                                                                    <i class="fa-solid fa-circle"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">Sed sagittis suscipit
+                                                                        condimentum pellentesque vulputate feugiat
+                                                                        libero nec accumsan.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-baseline">
+                                                                <div>
+                                                                    <i class="fa-solid fa-circle"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">Sed nec dapibus orci integer
+                                                                        nisl turpis, eleifend sit amet aliquam vel,
+                                                                        lacinia quis ex.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-baseline">
+                                                                <div>
+                                                                    <i class="fa-solid fa-circle"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">Those who are looking to reboot
+                                                                        their work life and try a new profession that is
+                                                                        fun, rewarding and highly in-demand.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-baseline">
+                                                                <div>
+                                                                    <i class="fa-solid fa-circle"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">Nunc auctor consequat lorem, in
+                                                                        posuere enim hendrerit sed.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-baseline">
+                                                                <div>
+                                                                    <i class="fa-solid fa-circle"></i>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="m-0 ps-2">Duis ornare enim ullamcorper
+                                                                        congue consectetur suspendisse interdum
+                                                                        tristique est sed molestie. </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="curriculums">
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <h3 class="text-start">
+                                                                    Curriculum
+                                                                </h3>
+                                                            </div>
+                                                            <div class="col-lg-6">
+                                                                <div class="d-flex justify-content-around">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div class="files">
+                                                                            <i class="fa-regular fa-folder-open"></i>
+                                                                        </div>
+                                                                        <div>
+                                                                            <h4 class="m-0 ps-1">
+                                                                                6 Sections
+                                                                            </h4>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div class="play_butn">
+                                                                            <i class="fa-solid fa-circle-play"></i>
+                                                                        </div>
+                                                                        <di v>
+                                                                            <h4 class="m-0 ps-1">
+                                                                                202 Lectures
+                                                                            </h4>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div class="clock">
+                                                                            <i class="fa-regular fa-clock"></i>
+                                                                        </div>
+                                                                        <div>
+                                                                            <h4 class="m-0 ps-1">
+                                                                                19h 37m
+                                                                            </h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="accordion" id="accordionExample">
+                                                            <div class="accordion-item rounded-0">
+                                                                <h2 class="accordion-header" id="headingOne">
+                                                                    <button class="accordion-button" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne">
+                                                                        Getting Started
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne"
+                                                                    class="accordion-collapse collapse show"
+                                                                    aria-labelledby="headingOne"
+                                                                    data-bs-parent="#accordionExample">
+                                                                    <div class="accordion-body">
+                                                                        <div>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="d-flex align-items-center">
+                                                                                        <div>
+                                                                                            <i class="fa-solid fa-play"></i>
+                                                                                        </div>
+                                                                                        <div>
+                                                                                            <h6 class="m-0 ms-2">What's in webflow?</h6>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6 text-end">
+                                                                                    <span>
+                                                                                        07:31
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="d-flex align-items-center">
+                                                                                        <div>
+                                                                                            <i class="fa-solid fa-play"></i>
+                                                                                        </div>
+                                                                                        <div>
+                                                                                            <h6 class="m-0 ms-2">Sign up in Webflow</h6>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6 text-end">
+                                                                                    <span>
+                                                                                        07:31
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="d-flex align-items-center">
+                                                                                        <div>
+                                                                                            <i class="fa-regular fa-file"></i>
+                                                                                        </div>
+                                                                                        <div>
+                                                                                            <h6 class="m-0 ms-2">Webflow Terms & Conditions</h6>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6 text-end">
+                                                                                    <span>
+                                                                                        07:31
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="d-flex align-items-center">
+                                                                                        <div>
+                                                                                            <i class="fa-solid fa-play"></i>
+                                                                                        </div>
+                                                                                        <div>
+                                                                                            <h6 class="m-0 ms-2">Teaser of Webflow</h6>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6 text-end">
+                                                                                    <span>
+                                                                                        07:31
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="d-flex align-items-center">
+                                                                                        <div>
+                                                                                            <i class="fa-regular fa-file"></i>
+                                                                                        </div>
+                                                                                        <div>
+                                                                                            <h6 class="m-0 ms-2">Practise Project</h6>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6 text-end">
+                                                                                    <span>
+                                                                                        07:31
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item rounded-0">
+                                                                <h2 class="accordion-header" id="headingTwo">
+                                                                    <button class="accordion-button" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseTwo"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseTwo">
+                                                                        Secret of Good Design
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseTwo"
+                                                                    class="accordion-collapse collapse"
+                                                                    aria-labelledby="headingTwo"
+                                                                    data-bs-parent="#accordionExample">
+                                                                    <div class="accordion-body">
+                                                                        <strong>This is the first item's accordion
+                                                                            body.</strong> It is shown by default, until
+                                                                        the collapse plugin adds the appropriate classes
+                                                                        that we use to style each element. These classes
+                                                                        control the overall appearance, as well as the
+                                                                        showing and hiding via CSS transitions. You can
+                                                                        modify any of this with custom CSS or overriding
+                                                                        our default variables. It's also worth noting
+                                                                        that just about any HTML can go within the
+                                                                        <code>.accordion-body</code>, though the
+                                                                        transition does limit overflow.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item rounded-0">
+                                                                <h2 class="accordion-header" id="headingThree">
+                                                                    <button class="accordion-button" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseThree"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseThree">
+                                                                        Practise Design Like an Artist
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseThree"
+                                                                    class="accordion-collapse collapse"
+                                                                    aria-labelledby="headingThree"
+                                                                    data-bs-parent="#accordionExample">
+                                                                    <div class="accordion-body">
+                                                                        <strong>This is the first item's accordion
+                                                                            body.</strong> It is shown by default, until
+                                                                        the collapse plugin adds the appropriate classes
+                                                                        that we use to style each element. These classes
+                                                                        control the overall appearance, as well as the
+                                                                        showing and hiding via CSS transitions. You can
+                                                                        modify any of this with custom CSS or overriding
+                                                                        our default variables. It's also worth noting
+                                                                        that just about any HTML can go within the
+                                                                        <code>.accordion-body</code>, though the
+                                                                        transition does limit overflow.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item rounded-0">
+                                                                <h2 class="accordion-header" id="headingFour">
+                                                                    <button class="accordion-button" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseFour"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseFour">
+                                                                        Web Development (Webflow)
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseFour"
+                                                                    class="accordion-collapse collapse"
+                                                                    aria-labelledby="headingFour"
+                                                                    data-bs-parent="#accordionExample">
+                                                                    <div class="accordion-body">
+                                                                        <strong>This is the first item's accordion
+                                                                            body.</strong> It is shown by default, until
+                                                                        the collapse plugin adds the appropriate classes
+                                                                        that we use to style each element. These classes
+                                                                        control the overall appearance, as well as the
+                                                                        showing and hiding via CSS transitions. You can
+                                                                        modify any of this with custom CSS or overriding
+                                                                        our default variables. It's also worth noting
+                                                                        that just about any HTML can go within the
+                                                                        <code>.accordion-body</code>, though the
+                                                                        transition does limit overflow.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item rounded-0">
+                                                                <h2 class="accordion-header" id="headingFive">
+                                                                    <button class="accordion-button" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseFive"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseFive">
+                                                                        Secrets of Making Money Freelancing
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseFive"
+                                                                    class="accordion-collapse collapse"
+                                                                    aria-labelledby="headingFive"
+                                                                    data-bs-parent="#accordionExample">
+                                                                    <div class="accordion-body">
+                                                                        <strong>This is the first item's accordion
+                                                                            body.</strong> It is shown by default, until
+                                                                        the collapse plugin adds the appropriate classes
+                                                                        that we use to style each element. These classes
+                                                                        control the overall appearance, as well as the
+                                                                        showing and hiding via CSS transitions. You can
+                                                                        modify any of this with custom CSS or overriding
+                                                                        our default variables. It's also worth noting
+                                                                        that just about any HTML can go within the
+                                                                        <code>.accordion-body</code>, though the
+                                                                        transition does limit overflow.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item rounded-0">
+                                                                <h2 class="accordion-header" id="headingSix">
+                                                                    <button class="accordion-button" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseSix"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseSix">
+                                                                        Adavnced
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseSix"
+                                                                    class="accordion-collapse collapse"
+                                                                    aria-labelledby="headingSix"
+                                                                    data-bs-parent="#accordionExample">
+                                                                    <div class="accordion-body">
+                                                                        <strong>This is the first item's accordion
+                                                                            body.</strong> It is shown by default, until
+                                                                        the collapse plugin adds the appropriate classes
+                                                                        that we use to style each element. These classes
+                                                                        control the overall appearance, as well as the
+                                                                        showing and hiding via CSS transitions. You can
+                                                                        modify any of this with custom CSS or overriding
+                                                                        our default variables. It's also worth noting
+                                                                        that just about any HTML can go within the
+                                                                        <code>.accordion-body</code>, though the
+                                                                        transition does limit overflow.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="profile" role="tabpanel"
+                                        aria-labelledby="profile-tab">Palo santo kogi ramps nostrud organic
+                                        schlitz, art party PBR&B tbh taxidermy hammock officia chia
+                                        farm-to-table irony. </div>
+                                    <div class="tab-pane fade" id="messages" role="tabpanel"
+                                        aria-labelledby="messages-tab">Asymmetrical sustainable live-edge
+                                        tempor eiusmod kale chips cloud bread vexillologist et man bun
+                                        pitchfork hashtag excepteur scenester ethical.</div>
+                                    <div class="tab-pane fade" id="settings" role="tabpanel"
+                                        aria-labelledby="settings-tab"> Literally wolf flexitarian snackwave
+                                        raw denim bitters ut synth kombucha consequat twee polaroid.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-xl-5">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- ===webflow section end=== -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.js"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <!-- JavaScript link -->
+    <script src="./Assets/js/script.js"></script>
+</body>
+
+</html>

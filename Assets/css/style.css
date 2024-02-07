@@ -1099,7 +1099,7 @@ h6 {
 #courses_category .filter_search_bar img {
     top: 9px;
     height: 20px;
-    left: 14px 
+    left: 14px
 }
 
 #courses_category .filter_box h5 {
@@ -1118,42 +1118,50 @@ h6 {
     justify-content: center;
     align-items: center;
 }
-#courses_category .search_box{
+
+#courses_category .search_box {
     width: 388px;
 }
-#courses_category .language_dropdown h5{
+
+#courses_category .language_dropdown h5 {
     font-family: Inter-Regular;
     color: #4E5566;
     font-size: 14px;
-    padding-right: 13px 
+    padding-right: 13px
 }
-#courses_category .suggestions h5{
+
+#courses_category .suggestions h5 {
     font-family: Inter-Regular;
     color: #1D2026;
     font-size: 15px;
     padding-right: 13px;
     font-weight: bold;
 }
-#courses_category .suggestions a{
+
+#courses_category .suggestions a {
     font-family: Inter-Regular;
     color: #FF6636;
     font-size: 14px;
     margin-right: 9px;
 }
-#courses_category .results{
+
+#courses_category .results {
     font-family: Inter-Regular;
 }
-#courses_category .results h5 span{
+
+#courses_category .results h5 span {
     color: #1D2026;
 }
-#courses_category .results h5{
+
+#courses_category .results h5 {
     color: #4E5566;
     font-size: 14px;
-    padding-right: 13px 
+    padding-right: 13px
 }
+
 /* ---courses category section end=== */
 /* ===pagination section start=== */
-.pagination .page-item{
+.pagination .page-item {
     border-radius: 55%;
     height: 50px;
     width: 50px;
@@ -1163,26 +1171,302 @@ h6 {
     margin: 10px;
     background-color: #FF6636;
 }
-.pagination .page-item a{
+
+.pagination .page-item a {
     color: white;
     font-family: Inter-Regular;
     font-weight: bold;
-    
+
 }
-.pagination .page-item:hover{
+
+.pagination .page-item:hover {
     background-color: #FFEEE8;
     transition: 0.5s;
 }
-.pagination .page-item:hover a{
+
+.pagination .page-item:hover a {
     color: #FF6636;
     transition: 0.5s;
 }
-.pagination .page-link{
+
+.pagination .page-link {
     background-color: transparent;
 }
+
 /* ===pagination section end=== */
 /* ===category page css end=== */
 
+/* ===single course page css start=== */
+#webflow .for_bg {
+    background-color: #F5F7FA;
+    padding: 160px;
+}
+
+#webflow .flow a {
+    font-family: Inter-Regular;
+    color: #6E7485;
+}
+
+#webflow .flow i {
+    color: #6E7485;
+}
+
+#webflow .webflow_heading {
+    font-family: Inter-Regular;
+}
+
+#webflow .webflow_heading h3 {
+    font-size: 22px;
+
+}
+
+#webflow .webflow_info p {
+    font-size: 14px;
+    color: #4E5566;
+}
+
+#webflow .creator_info h6 {
+    color: #1D2026;
+    font-family: Inter-Regular;
+    font-size: 13px;
+    color: #6E7485;
+}
+
+#webflow .creator_info h5 {
+    font-family: Inter-Regular;
+    font-size: 13px;
+}
+
+#webflow .rating h5 {
+    font-family: Inter-Regular;
+    font-size: 13px;
+    color: #6E7485;
+}
+
+#webflow .rating h5 span {
+    color: #1D2026;
+}
+
+#webflow .for_margin {
+    margin-top: -232px;
+}
+
+#webflow .play_icon {
+    left: 50%;
+    top: 41%;
+    height: 50px;
+    width: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#webflow .play_icon i {
+    color: #FF6636;
+}
+
+
+
+
+
+.cycle-tab-container {
+    margin: 30px auto;
+    /* width: 800px; */
+    /* padding: 20px; */
+    font-family: Inter-Regular;
+}
+
+.cycle-tab-container a {
+    color: #173649;
+    font-size: 16px;
+    font-family: roboto;
+    text-align: center;
+    font-family: Inter-Regular;
+}
+
+.cycle-tab-container .tab-pane {
+    text-align: center;
+    height: 100px !important;
+    max-width: 100%;
+}
+
+.cycle-tab-container .fade {
+    opacity: 0;
+    transition: opacity 4s ease-in-out;
+}
+
+.cycle-tab-container .fade.active {
+    opacity: 1;
+}
+
+.cycle-tab-container .for_border {
+    border-bottom: 2px #FF6636 solid;
+    opacity: 0;
+    margin-top: 6px;
+}
+
+.cycle-tab-container li:hover .for_border {
+    opacity: 1;
+    transition: 1s all;
+}
+
+.cycle-tab-container li:hover a {
+    font-weight: bold;
+    color: #1D2026;
+    transition: 0.5s all;
+}
+
+.cycle-tab-container li:focus .for_border {
+    opacity: 1;
+    transition: 1s all;
+}
+
+.cycle-tab-container li:focus a {
+    font-weight: bold;
+    color: #1D2026;
+    transition: 0.5s all;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+}
+
+.cycle-tab-container .tab_heading h3 {
+    font-weight: bold;
+    font-size: 21px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cycle-tab-container p {
+    font-size: 10px;
+    color: #4E5566;
+}
+
+.cycle-tab-container .learn_course {
+    background-color: #F5F7FA;
+}
+
+.cycle-tab-container .learn_course h3 {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.cycle-tab-container .learn_course .icon_container {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #23BD33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cycle-tab-container .learn_course .icon_container i {
+    color: white;
+    font-size: 11px;
+}
+
+.cycle-tab-container .who_course h3 {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.cycle-tab-container .who_course p {
+    font-size: 9px;
+}
+
+.cycle-tab-container .who_course i {
+    color: #FF6636;
+    font-size: 14px;
+}
+
+.cycle-tab-container .course_requirement h3 {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.cycle-tab-container .course_requirement i {
+    font-size: 5px;
+    color: #4E5566;
+}
+
+.cycle-tab-container .course_requirement p {
+    font-size: 9px;
+}
+
+.curriculums h4 {
+    font-size: 12px;
+    color: #4E5566;
+}
+
+.curriculums h3 {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.curriculums .files i {
+    color: #FF6636;
+}
+
+.curriculums .play_butn i {
+    color: #564FFD;
+}
+
+.curriculums .clock i {
+    color: #FF6636;
+}
+
+.curriculums .accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+
+.curriculums .accordion-button:focus{
+    color: #FF6636;
+    transition: 0.5s all;
+}
+.accordion-button:focus::after {
+    color: #FF6636; 
+}
+.accordion-button:not(.collapsed){
+    color: #1D2026;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "\f078" !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: #212529;
+    transition: transform .2s ease-in-out;
+    background-image: none;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: red;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
+.accordion-body h6{
+    font-size: 14px;
+    color: #4E5566;
+}
+.accordion-body span{
+    color: #8C94A3;
+    font-size: 14px;
+}
+.accordion-body i{
+    font-size: 14px;
+}
+/* ===single course page css end=== */
 /* ===media query for start=== */
 @media only screen and (min-width: 1024px) and (max-width: 1300px) {
     #hero_section .hero_info {
@@ -1296,10 +1580,12 @@ h6 {
     #footers .for_spacing {
         padding-left: 140px;
     }
+
     /* ===category page start=== */
     #courses_category .search_box {
         width: 300px;
     }
+
     /* ===category page end=== */
 }
 
@@ -1322,13 +1608,20 @@ h6 {
     #feature .col-11 {
         padding: 20px;
     }
+
     /* ===category page start=== */
     #courses_category .search_box {
         width: 315px;
     }
 
     /* ===category page end===} */
+    #webflow .flow a,
+    i {
+        font-size: 12px;
+    }
+
 }
+
 @media only screen and (max-width: 375px) {
     #navs input {
         width: 99px;
@@ -1386,10 +1679,12 @@ h6 {
     #footers button {
         margin-top: 9px;
     }
+
     /* ===category page start=== */
     #courses_category .search_box {
         width: 269px;
     }
+
     /* ===category page end=== */
 }
 
